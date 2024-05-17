@@ -52,10 +52,6 @@ total_prob_basinC /= total_prob_all
 delta_G_A_B = -kb * T * np.log(total_prob_basinA / total_prob_basinB)
 delta_G_C_B = -kb * T * np.log(total_prob_basinC / total_prob_basinB)
 
-# Calculate delta_G for each basin with respect to basin B
-delta_G_A_B = -kb * T * np.log(total_prob_basinA / total_prob_basinB)
-delta_G_C_B = -kb * T * np.log(total_prob_basinC / total_prob_basinB)
-
 # Initialize lists to store the resampled and bias-corrected delta G values
 delta_G_values_A_B = []
 delta_G_values_C_B = []
